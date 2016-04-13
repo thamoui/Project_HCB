@@ -202,7 +202,7 @@ body.home-body::before {
     background: #27a1c5
 }
 .bounds, .bounds--wide, .page-bounds {
-    max-width: 1240px
+    max-width: 1240px;
 }
 .home-hero {
     height: auto;
@@ -422,6 +422,7 @@ section h2 {
         padding-bottom: 0px;
 
     }
+
   }
 
 /*AHMED*/
