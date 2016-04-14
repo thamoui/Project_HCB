@@ -1,0 +1,136 @@
+.row{
+  background:#003252;
+  padding: 30px;
+  padding-top: 67px;
+  background: #003252;
+  height: 300px;
+
+}
+h2{
+  color: #A2ABB0;
+  font-size: 20px;
+  margin-top: 5px;
+}
+#l1{
+  display: block;
+  text-align: left;
+  padding-top: -30px;
+  margin-top: -35px;
+  margin-right: -120px;
+  width: 22%;
+
+
+}
+#l2{
+  display: block;
+  margin-top: -35px;
+  margin-right: -60px;
+  width: 22%;
+  text-align: left;
+}
+#list{
+  margin-top: -35px;
+  width:22%;
+  text-align: left;
+
+}
+.dil{
+  display: block;
+  color:#ffffff;
+  margin-top: 33px;
+  text-align: left;
+  list-style:none;
+  margin-left: -40px;
+}
+
+#listlast{
+  display: block;
+  text-align: left;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-top: -66px;
+  margin-right: 0px;
+  margin-left: 150px;
+  margin-bottom: 0px;
+  width: 31%;
+
+}
+.row1{
+  color: #94B7CB;
+  display: block;
+  text-align: left;
+
+}
+h3{
+  color:#27A1C5;
+  margin-bottom: 30px;
+}
+  .row2{
+    color: #94B7CB;
+  }
+
+  /*#27A1C5;
+/*.last-footer {
+    border: 5px solid red;
+    padding: 30px;
+    padding-top: 67px;
+    background: #003252;
+    height: 500px;
+}
+.footer1 {
+    border: 5px solid green;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1240px;
+}
+.footer2 {
+    border: 5px solid blue;
+    display: block;
+    color: #94b7cB;
+    max-width: 420px;
+    margin-bottom: 2.375rem;
+    content: url("/image/arrow-right.svg");
+    height: 1.125rem;
+  3  left: 0;
+    margin-right: 0.5rem;
+    position: relative;
+    top: 0;
+    transition: left 0.2s ease 0s;
+    width: 1.5rem;
+}
+.footer2 h2 {
+    margin-bottom: 0.625rem;
+    color: #c4c4c4;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.footer2-discription {
+    color: #94b7cb;
+}
+.footerlist {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 616px;
+    margin: 0 0 2.5rem;
+    min-width: 170px;
+}
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.footerlist {
+    padding: 0;
+}
+.footerlist1 {
+    padding: 0;
+}
+.footerlist3 {
+    padding-left: 0;
+}
