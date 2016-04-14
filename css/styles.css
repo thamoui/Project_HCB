@@ -326,7 +326,7 @@
     .home-hero h1 {
         font-weight: 300;
         color: #003252;
-        font-size: 3.125rem;
+        font-size: 2.125rem;
         line-height: 3.125rem;
         z-index: 2;
         position: relative;
@@ -661,7 +661,7 @@ svg {
         font-weight: normal;
         margin: 0px;
     }
-    
+
     /*AMINA*/
 
     #amina {
