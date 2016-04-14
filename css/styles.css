@@ -53,10 +53,11 @@ header .intro-text .skills {
   }
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
-    background-color: rgba(192,192,192,0.3);
+    background-color: rgba(255,255,255,0.9);
   }
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
+    color: gray;
   }
 }
 .navbar {
@@ -82,7 +83,9 @@ header .intro-text .skills {
 .navbar-default .navbar-nav>li>a{
   color: white;
 }
-
+.navbar-fixed-top.navbar-shrink .navbar-nav>li>a{
+  color: gray;
+}
 
 
 /*ALI*/
@@ -199,7 +202,7 @@ body.home-body::before {
     background: #27a1c5
 }
 .bounds, .bounds--wide, .page-bounds {
-    max-width: 1240px
+    max-width: 1240px;
 }
 .home-hero {
     height: auto;
@@ -302,7 +305,17 @@ body.home-body::before {
     text-align: center;
     max-width: 525px;
     padding: 0 10px 14px;
-    box-sizing: border-box
+    box-sizing: border-box;
+}
+.hero-footer__section2 {
+    color: #fff;
+    text-align: center;
+    max-width: 525px;
+    padding: 0 10px 14px;
+    box-sizing: border-box;
+    background: url("http://phonegap.com/images/phone_robit.svg") no-repeat center;
+    z-index: 0;
+}
 }
 .hero-footer__section h2 {
     font-size: 30px;
@@ -387,6 +400,30 @@ section h2 {
         height: 100%;
         display: block
     }
+
+    @media (min-width: 700px){
+
+    .sub-footer {
+        background: #ddecf1;
+        text-align: center;
+        padding-top: -10px;
+    }
+    .sub-footer .bounds {
+        max-width: 930px;
+        padding: -5px -5px 40px;
+        box-size: border-box;
+        margin: auto;
+    }
+    .sub-footer .bounds h2 {
+        font-size: 1.875rem;
+        text-transform: none;
+        margin-bottom: 3rem;
+        padding: -20px;
+        padding-bottom: 0px;
+
+    }
+
+  }
 
 /*AHMED*/
 
