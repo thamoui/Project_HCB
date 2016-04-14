@@ -1,0 +1,102 @@
+body{
+margin: 0;
+ font-family: Helvetica,Arial,sans-serif;
+ color: #033351;
+ line-height:1.75rem;
+ -webkit-font-smoothing: antialiased;
+ padding-top: 60px;
+}
+	 ul {
+	 list-style: armenian;
+	 margin: 0px;
+	 padding: 0px;
+	 position: relative;
+	 margin-bottom: 70px;
+	 display: -webkit-box;
+	 display: -webkit-flex;
+	 display: -ms-flexbox;
+	 display: flex;
+	 -webkit-box-orient: horizontal;
+	 -webkit-box-direction: normal;
+	 -webkit-flex-direction: row;
+	 -ms-flex-direction: row;
+	 flex-direction: row;
+	 -webkit-flex-wrap: wrap;
+	 -ms-flex-wrap: wrap;
+	 flex-wrap: wrap;
+	 -webkit-box-pack: center;
+	 -webkit-justify-content: center;
+	 -ms-flex-pack: center;
+	 justify-content: center;
+	 -webkit-box-align: center;
+	 -webkit-align-items: center;
+	 -ms-flex-align: center;
+	 align-items: center
+	}
+		.home-gid__item{
+		 width:418px;
+		 text-align:center;
+		 margin:23px 0
+		}
+
+		.home-gid__item h3{
+		 letter-spacing:.03125rem;
+		 color: red;
+		 text-transform:uppercase;
+		 font-size:1.125rem;
+		 font-weight:normal;
+		 margin:0
+		}
+		.home-gid__item p{
+		 margin:0 0 2px;
+		 line-height:1.625rem
+		}
+		.home-gid__item footer{
+		 color: red;
+		 font-size:.875rem;
+		 text-transform:uppercase
+		}
+		 svg {
+
+				height: 60px;
+				color: transparent;
+			  overflow: hidden;
+			  overflow-x: hidden;
+			  overflow-y: hidden;
+		}
+		.home-gid__item {
+		    text-align: center;
+		}
+
+		html {
+		    font-family: sans-serif;
+		}@media (min-width: 994px){
+			.tools ul{
+				-webkit-box-pack:space-between;
+				-webkit-justify-content:space-between;
+				-ms-flex-pack:space-between;
+				justify-content:space-between
+			}
+
+			.home-gid__item h3 {
+			    letter-spacing: 0.03125rem;
+			    color: red;
+			    text-transform: uppercase;
+			    font-size: 1.125rem;
+			    font-weight: normal;
+			    margin: 0px;
+				}
+
+        .home-gid__item footer{
+         color: red;
+         font-size:.875rem;
+         text-transform:uppercase
+        }
+        body :hover {
+            box-shadow: 0px 0px 0px 1px #C4C4C4, 0px 1px 8px 1px rgba(153, 153, 153, 0.35);
+            border-radius: 4px;
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                border-bottom-left-radius: 4px;
+        }
